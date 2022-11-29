@@ -1,0 +1,152 @@
+.statistics
+    &__inner
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 100%
+        padding: 0 6rem
+        gap: 6rem
+    &__left
+        width: 50%
+        height: 100%
+    &__right
+        width: 50%
+        height: 100%
+        position: relative
+    &__name
+        font-family: $ff-raleway
+        font-style: normal
+        font-weight: 400
+        font-size: 1.3rem
+        line-height: 2rem
+        letter-spacing: 0.05px
+        text-transform: uppercase
+        color: $color-green
+        margin-bottom: 2px
+    &__title
+        font-family: $ff-roboto
+        font-style: normal
+        font-weight: 700
+        font-size: 3.6rem
+        line-height: 4.6rem
+        color: $color-green
+        font-size: 3.4rem
+        margin-bottom: 3.4rem
+    &__text
+        font-family: $ff-raleway
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 30px
+        letter-spacing: 0.02px
+        color: $color-gray
+        margin-bottom: 2.6rem
+    &__button
+    &__number
+        font-family: $ff-roboto
+        font-style: normal
+        font-weight: 700
+        font-size: 7rem
+        line-height: 9rem
+        color: $color-green
+        &::after
+
+            content: ""
+            display: block
+            height: 0.2rem
+            width: 100%
+            background: #F0A446
+            margin-top: 1rem
+            margin-bottom: 1.8rem
+            z-index: 5
+    &__text-right
+        font-family: $ff-raleway
+        font-style: normal
+        font-weight: 700
+        font-size: 1.3rem
+        line-height: 2.2rem
+        letter-spacing: 0.02px
+        color: $color-green
+        padding-right: 28rem
+
+.diagram__column
+    &-one
+        width: 7.8rem
+        height: 15rem
+        background: #43806C
+        position: absolute
+        right: 20rem
+        bottom: 0
+        z-index: 1
+        &::before
+            content: "$1,644"
+            display: block
+            font-family: $ff-raleway
+            font-style: normal
+            font-weight: 400
+            font-size: 1.3rem
+            line-height: 2.2rem
+            text-align: center
+            color: $color-green
+            position: absolute
+            top: -2rem
+            left: 1.5rem
+        &::after
+            content: "Deductible"
+            display: block
+            font-family: $ff-raleway
+            font-style: normal
+            font-weight: 700
+            font-size: 1.3rem
+            line-height: 2.2rem
+            text-align: center
+            color: $color-green
+            position: absolute
+            bottom: -2rem
+            left: 0.4rem
+
+    &-two
+        width: 7.8rem
+        height: 30rem
+        background: #43806C
+        position: absolute
+        right: 10rem
+        bottom: 0
+        z-index: 1
+        &::before
+            content: "$4,039"
+            display: block
+            font-family: $ff-raleway
+            font-style: normal
+            font-weight: 400
+            font-size: 1.3rem
+            line-height: 2.2rem
+            text-align: center
+            color: $color-green
+            position: absolute
+            top: -2rem
+            left: 1.5rem
+        &::after
+            content: "Annual Max"
+            display: block
+            font-family: $ff-raleway
+            font-style: normal
+            font-weight: 700
+            font-size: 1.3rem
+            line-height: 2.2rem
+            text-align: center
+            color: $color-green
+            position: absolute
+            bottom: -2rem
+            left: 0.4rem
+.diagram__text
+    font-family: $ff-raleway
+    font-style: normal
+    font-weight: 400
+    font-size: 1.3rem
+    line-height: 2.2rem
+    text-align: center
+    color: $color-gray
+    position: absolute
+    bottom: -7rem
+    right: 0
